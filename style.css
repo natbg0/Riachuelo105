@@ -61,11 +61,27 @@
     font-size: 18px;
   }
   
-  #horario img{
-    width: 450px;
-    margin-left: 450px;
-    margin-right: 300px;
+   .conteiner-grid {
+    display: grid;
+     grid-template-columns: auto auto auto auto auto;
   }
+
+   .conteiner-grid > div {
+     background-color: #6d757e;
+     border: 1px solid black;
+     font-size: 30px;
+     text-align: center;
+     padding: 10px;
+   }
+
+    #item {
+      color: white;
+      position: ;
+    }
+
+    #item p {
+      color: black;
+    }
 
   ul li {
     margin-bottom: 16px;
