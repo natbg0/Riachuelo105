@@ -20,7 +20,7 @@
   header,
   section {
     max-width: 300px;
-    margin: 0 auto;
+    margin: auto;
   }
   
   header h1 {
@@ -104,7 +104,7 @@
   }
   
   /* FONTS */
-  h1, h2, h3, .price {
+  h1, h2, h3, .prazo {
     font-family: 'Roboto Serif';
     text-transform: uppercase;
     color: #000000;
@@ -171,3 +171,7 @@ nav ul .dropdown:hover ul{
   nav ul li a {
     border-radius: 0 20px;
   }
+
+.prazo {
+  margin: 55px;
+}
