@@ -63,7 +63,7 @@
   
    .conteiner-grid {
     display: grid;
-     grid-template-columns: auto auto auto auto auto;
+     grid-template-columns:auto auto auto auto auto;
   }
 
    .conteiner-grid > div {
@@ -116,7 +116,7 @@ a{
 }
 
 img{
-  width: 8%;
+  width: 12%;
 }
 
 input[type="checkbox"]
