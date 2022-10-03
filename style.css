@@ -4,12 +4,8 @@
   }
   
   body {
-    background-color: #d9dbdf;
+    background-color: #e6cea8 ;
     font-family: 'Roboto', sans-serif; 
-  }
-  
-  ul {
-    list-style: none;
   }
   
   header {
@@ -17,161 +13,48 @@
     text-align: center;
   }
   
-  header,
-  section {
-    max-width: 300px;
-    margin: auto;
-  }
-  
   header h1 {
-    margin-bottom: 4px;
-    font-size: 28px;
+    margin-bottom: 30px;
+    font-size: 50px;
   }
   
   header h1 span {
-    color: #0404ff;
+    color: #1f140e;
   }
+
+  h1 {text-shadow: 0.1em 0.1em 0.2em black}
   
   #rio {
-    color: black;
+    color: #1f140e;
   }
 
-  #hor {
-    color: #ffffff;
-  }
-
-  #ati {
-    color: #ffffff;
-  }
-
-  header p {
-    color: rgb(0, 0, 0);
-  }
-  
-  section {
-    margin-bottom: 10px; 
-  }
-  
-  section h2 {
-    background-color: #0404ff;
-    padding: 16px 16px; 
-    text-align: center; 
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-size: 18px;
-  }
-  
-   .conteiner-grid {
-    display: grid;
-     grid-template-columns:auto auto auto auto auto;
-  }
-
-   .conteiner-grid > div {
-     background-color: #6d757e;
-     border: 1px solid black;
-     font-size: 30px;
-     text-align: center;
-     padding: 10px;
-   }
-
-    #item {
-      color: white;
-      position: ;
-    }
-
-    #item p {
-      color: black;
-    }
-
-  ul li {
-    margin-bottom: 16px;
-    display: flex;
-  }
-  
-  li .details {
-    max-width: 240px;
-  }
-  
-  .details h3 {
-    margin-bottom: 16px;
-    font-size: 16px;
-  }
-  
-  .deatils p {
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    line-height: 21px;
-  }
-  
-  /* FONTS */
-  h1, h2, h3, .prazo {
+  h1, .bota{
     font-family: 'Roboto Serif';
     text-transform: uppercase;
-    color: #000000;
+    color: #1f140e;
   }
 
-a{
-  text-decoration: none;
-  color: rgb(182, 182, 206);
-}
-
-img{
-  width: 12%;
-}
-
-input[type="checkbox"]
-{
-  display: none;
-}
-
-nav{
-  background-color: #99a5b8;
-  width: 200px;
-  height: 110%;
-  left: -200px;
-  position: absolute;
-  transition: all .5s;
-}
-
-input[type="checkbox"]:checked ~ nav
-{
-  transform: translateX(200px);
-}
-
-a{
-  display: block;
-  padding: 10px 5px;
-  color: #000000;
-}
-
-a:hover{
-  background-color: #0404ff;
-  color: #ffffff;
-  position: static;
-  width: 200px;
-}
-
-nav ul ul {
-  position: absolute;
-  left: 200px;
-  width: 200px;
-  top: 0;
-  display: none;
-}
-
-nav ul .dropdown{
-  position: relative;
-}
-
-nav ul .dropdown:hover ul{
-  display: initial;
-  background-color: #6d757e;
+  .bota {
+    text-decoration: none;
+    width: 160px;
+    padding:16px;
+    font-size: 20px;
+    background-color: #977961;
+    margin: 8px;
+    text-align: center;
+    list-style-position: center;
+    border-radius: 10%;
+    margin-right: 0%;
+    margin-left: 0%;
   }
 
-  nav ul li a {
-    border-radius: 0 20px;
+  li :hover{
+    background-color: #a7856a;
   }
 
-.prazo {
-  margin: 55px;
-}
+  li {
+    display: inline-flex;
+    margin-left: 130px;
+    margin-right: 100px;
+  }
+
