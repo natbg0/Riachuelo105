@@ -44,17 +44,15 @@
     text-align: center;
     list-style-position: center;
     border-radius: 10%;
-    margin-right: 0%;
-    margin-left: 0%;
   }
 
   li :hover{
-    background-color: #a7856a;
+    background-color: #deab7f;
   }
 
   li {
     display: inline-flex;
-    margin-left: 130px;
+    margin-left: 100px;
     margin-right: 100px;
   }
 
